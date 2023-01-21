@@ -37,7 +37,11 @@
     header .img2{
         display: block;
         width: 160px;
+        height: 160px;
+        object-fit: cover;
         border-radius: 50%;
+        flex: none;
+        max-width: 100%;
     }
 }
 @media (max-width:970px){
@@ -119,6 +123,7 @@
     }
     header .img2{
         width: 130px;
+        height: 130px;
     }
     .jk{
         font-size: 12pt;
@@ -160,6 +165,7 @@
     }
     header .img2{
         width: 60px;
+        height: 60px;
     }
 }
 @media (max-width:280px){

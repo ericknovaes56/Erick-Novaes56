@@ -104,6 +104,8 @@ header{
 header .img{
     border-radius: 0px 140px 0 140px;
     width: 464px;
+    height: 464px;
+    object-fit: cover;
     max-width: 100%;
 }
 header .img2{
